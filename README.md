@@ -36,7 +36,7 @@ List all ruby version you could install on your computer:
 	
 Use this commend to install different versions of ruby:
 
-	rvm install 1.9.3
+	rvm install 1.9.3 --with-gcc=clang
 	
 It will automatically install all required packages: autoconf, automake, libtool, pkg-config, gcc46, libyaml, readline, libksba, openssl.
 
