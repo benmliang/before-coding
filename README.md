@@ -114,3 +114,17 @@ Try this to see your commend line for sublime is all set or not:
 A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community. <https://github.com/robbyrussell/oh-my-zsh>
 
 	curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+	
+You might need to restart your terminal. Let's make our terminal look better. Open config file:
+	
+	subl ~/.zshrc
+
+Change theme to arrow, I personally like this theme:
+
+	ZSH_THEME="arrow"
+	
+Add these plugins:
+	
+	plugins=(git rails sublime ruby)
+
+## 4.6 Install tomorrow theme
