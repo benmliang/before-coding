@@ -77,12 +77,11 @@ Run this commend on your terminal to test git set up corrently or not:
 	ssh -T git@github.com
 	
 If you can see your username, then it means you got git on your Macbook.
-	
+
+> Hight recommend: [Tower](http://www.git-tower.com/) to be your Github GUI, it's so good. Bens proved.
 
 ## 4. Install [ClipMenu](http://www.clipmenu.com) - optional
-Go to <http://www.clipmenu.com> and download ClipMenu, which helps your manage your clipboard.
-
-> **ClipMenu** stores clipboard histories such as plain text, rich texts format, PDF, PICT, and TIFF image. You can access in the menubar or by using hot key.
+Go to <http://www.clipmenu.com> and download ClipMenu, which stores clipboard histories such as plain text, rich texts format, PDF, PICT, and TIFF image. You can access in the menubar or by using hot key.
 
 After drag application to a folder, you need to run it at least one time to activate it. 
 
@@ -105,11 +104,13 @@ The simplest method of installation is through the Sublime Text console. The con
 Add sublime to commend line:
 
 	ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+	
+Try this to see your commend line for sublime is all set or not:
+
+	subl .
 
 ## 4.5 Install Oh-My-Zsh
 
-A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community. <http://twitter.com/ohmyzsh>
+A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community. <https://github.com/robbyrussell/oh-my-zsh>
 
 	curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-	
-	
