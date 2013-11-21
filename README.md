@@ -127,4 +127,10 @@ Add these plugins:
 	
 	plugins=(git rails sublime ruby)
 
-## 4.6 Install tomorrow theme
+## 4.6 Install [tomorrow theme](https://github.com/chriskempson/tomorrow-theme)
+
+[Download](https://github.com/chriskempson/tomorrow-theme/archive/master.zip) awesome tomorrow theme from this repo.
+
+## 4.7 Install a better font
+
+A great font for coding: [source code pro](http://www.fontsquirrel.com/fonts/source-code-pro)
