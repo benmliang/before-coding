@@ -19,7 +19,7 @@ Your terminal should give you this message:
 Install Xcode from Apple [app store](https://developer.apple.com/xcode/).
 
 
-## 2. Install [RVM](https://rvm.io) and Ruby
+## 2. Install [RVM](https://rvm.io)
 Install RVM with a Rby
 
 	\curl -L https://get.rvm.io | bash -s stable
