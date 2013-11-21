@@ -40,19 +40,43 @@ Use this commend to install different versions of ruby:
 	
 It will automatically install all required packages: autoconf, automake, libtool, pkg-config, gcc46, libyaml, readline, libksba, openssl.
 
-Check installed rubies on your computer:
-
-	rvm list
-
 Install ruby 2.0:
 
 	rvm install 2.0.0
+	
+Check installed rubies on your computer:
+
+	rvm list
+	
+You can set ruby 2.0.0 as default ruby by using this:
+
+	rvm use 2.0.0 --default
+	
+Check it again, see any difference?
+	
+	rvm list
 	
 ## 3.5 Set up git
 
 Now that you have Git installed, it's time to configure your settings. Follow this good [toturial](https://help.github.com/articles/set-up-git) from github.
 
-Set up your [ssh keys](https://help.github.com/articles/generating-ssh-keys), and then you don't need to type password every time.
+Set up your default name and email address for github:
+
+	git config --global user.name "Your Name Here"
+	
+	git config --global user.email "your_email@example.com"
+
+Set up your [SSH Keys](https://help.github.com/articles/generating-ssh-keys), and then you don't need to type password every time.
+
+	ssh-keygen -t rsa -C "your_email@example.com"
+	
+And then go to [SSH Key manager](https://github.com/settings/ssh), add generated hash to your github.
+
+Run this commend on your terminal to test git set up corrently or not:
+
+	ssh -T git@github.com
+	
+If you can see your username, then it means you got git on your Macbook.
 	
 
 ## 4. Install [ClipMenu](http://www.clipmenu.com) - optional
