@@ -4,7 +4,7 @@
 
 ## 1. Install [Homebrew](http://brew.sh)
 
-	ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+	ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 	
 It will install 'command line developer tools' at begining, so you don't need to download Xcode.
 
