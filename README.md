@@ -1,4 +1,4 @@
-# Set up web development environment for new computer
+# Set up web development environment for new Macbook (mavericks)
 
 	I am still editing this post, welcome to give me some advices on anything :D
 
